@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 404723944, guid: 9195dc42b802fc843ada5bdc84683499, type: 3}
+  m_Name: EnsignSetting
+  m_EditorClassIdentifier: 
+  publicKey: 
+  distributors:
+  - name: Develop
+    urlWeb: 127.0.0.1
+    webPrototol: 0
+    portWeb: 80
+    urlSocket: 127.0.0.1
+    socketPrototol: 4
+    portSocket: 4530
+    urlLog: logs.devs.extrenevn.vn
+    logPrototol: 6
+    portLog: 25514
+    bundleIdentifier: com.ensign.unity.example
+    platforms:
+    - type: 2
+      versions: 00000000010000000000000001000000
+    - type: 11
+      versions: 00000000010000000000000001000000
+    - type: 8
+      versions: 00000000010000000000000001000000
+    extraInfo: []
+    purchases: []
+  selectedDistributeIndex: 0
+  isGithook: 0
+  isDiagnosticsServer: 0
+  isUseAnalyzerMicrosoft: 0
+  analyzerServer: https://logs.devs.extremevn.vn/api/phpcs-reports
+  analyzerFile: CodeAnalyzerCLI\report.json
+  isUseKeystore: 0
+  keystoreName: 
+  keystorePass: 
+  keyaliasName: 
+  keyaliasPass: 
+  isUseIOSProfile: 0
+  profileTeamId: 
+  profileProvisioningId: 
+  isDebugMode: 0
+  enableVerboseLog: 1
+  enableLogViewer: 1
+  enableSyslogRelease: 0
+  enableAutoAnalytic: 1
+  enableCollectEvent: 0
+  enableLogFile: 0
+  timeTrigger: 
+  gitBranchName: 
+  gitCommit: 
+  esCodeVersion: 1.0.3-preview.9
+  ensignPath: Ensign/Common

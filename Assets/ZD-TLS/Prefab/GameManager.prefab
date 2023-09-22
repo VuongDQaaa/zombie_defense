@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7940764086318083820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7940764086318083810}
+  - component: {fileID: 7940764086318083821}
+  - component: {fileID: 7940764086318083808}
+  - component: {fileID: 7940764086318083811}
+  - component: {fileID: 5500698830868022651}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7940764086318083810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7940764086318083820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 363.5632, y: 279.87354, z: 0.91413724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7940764086318083821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7940764086318083820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ac38c4786414caca78458967784a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  State: 0
+  Player: {fileID: 0}
+  enemyAlives: []
+  listEnemyChasingPlayer: []
+--- !u!114 &7940764086318083808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7940764086318083820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9650daa7860be4508aa3f8f2355c080a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToPreload:
+  - {fileID: 7921654476063181378, guid: bb25d2bf2f5bc6d4e8022b5d3b28ef67, type: 3}
+  - {fileID: 7195308260665177091, guid: b486b9496ae1148348879921c15a15cf, type: 3}
+  - {fileID: 107096, guid: bbd69288c0cce4cf5bff52fc58c4224c, type: 3}
+  - {fileID: 100000, guid: af23821c2ac734df9b8927c62eaccb14, type: 3}
+  - {fileID: 1124642983650704, guid: 1d0f464bdf98b448db66d24f73bff7fb, type: 3}
+  - {fileID: 100008, guid: e8829644fed964ee48d7dd217bfcc267, type: 3}
+  objectsToPreloadTimes: 0a000000640000001400000014000000140000000a000000
+  hideObjectsInHierarchy: 0
+--- !u!114 &7940764086318083811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7940764086318083820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99bee9f3f98084cdeb17b8b007493727, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beginSoundInMainMenu: {fileID: 8300000, guid: 8d7550fb5f5b1a041bcae5ee3b250a20, type: 3}
+  musicsGame: {fileID: 8300000, guid: b2b2e99485c0d4253b0bb1f2034fe04e, type: 3}
+  musicsGameVolume: 0.5
+  soundClick: {fileID: 8300000, guid: 759c37dfc75cbc9458cbd1d3578d9e06, type: 3}
+  soundFail: {fileID: 0}
+  soundPause: {fileID: 0}
+  zombieSound:
+  - {fileID: 8300000, guid: 79c5f732b41ab424d9e38b23e1d3ac34, type: 3}
+  - {fileID: 8300000, guid: f74af649fcbb845268fa05e5fc9ea5b9, type: 3}
+  - {fileID: 8300000, guid: 43174e1892ef64f478ef5f941d8bd317, type: 3}
+  - {fileID: 8300000, guid: c4a2996f67c324488b9f30b9f637e205, type: 3}
+  - {fileID: 8300000, guid: 726d589a9bc1443579ede86d5ba1cbdd, type: 3}
+  - {fileID: 8300000, guid: 3c76acaf4580941339060c13e86b7dbb, type: 3}
+  zombieDie:
+  - {fileID: 8300000, guid: c4a2996f67c324488b9f30b9f637e205, type: 3}
+  - {fileID: 8300000, guid: 3c76acaf4580941339060c13e86b7dbb, type: 3}
+  - {fileID: 8300000, guid: 726d589a9bc1443579ede86d5ba1cbdd, type: 3}
+  zombieHurt: []
+  soundPurchased: {fileID: 8300000, guid: 1982fb7e1919d7c4aa5f7f5d05ebb252, type: 3}
+  soundUpgrade: {fileID: 8300000, guid: a59989984f453c84fb3d15e6ee11eac5, type: 3}
+  soundNotEnoughCoin: {fileID: 8300000, guid: 203bf418f47fbc04fb6d43ffc3c1d7d6, type: 3}
+  soundVictoryPanel: {fileID: 8300000, guid: 6920882bc2bfc2d4595d612a0891086b, type: 3}
+--- !u!114 &5500698830868022651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7940764086318083820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e76987702af517f41a1a5898c33ef178, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FloatingText: {fileID: 1124642983650704, guid: 1d0f464bdf98b448db66d24f73bff7fb, type: 3}
